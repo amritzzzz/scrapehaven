@@ -1,5 +1,7 @@
 SET MY_PATH=C:\`code\scrapehaven
 
+ROBOCOPY %MY_PATH%\images %MY_PATH%\images_%DATE% /MIR /E
+
 RMDIR /S /Q %MY_PATH%\images
 MKDIR %MY_PATH%\images
 
