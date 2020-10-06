@@ -88,9 +88,9 @@ This option defines if the browser is visible when navigating the website
 
 `test_batch_script.bat` is a simple batch script to allow you to group multiple different search scenarios.
 
-Edit `test_batch_script.bat` with the directory of this project on your local machine. Update `MY_PATH`.
+Copy `test_batch_script.bat` and rename it to your personal script.
 
-`cmd /k` will open the cmd prompt. Remove if wanted to run in the background.
+Edit your new script file with the directory of this project on your local machine. Update `MY_PATH`.
 
 ## Windows Task Scheduler
 
