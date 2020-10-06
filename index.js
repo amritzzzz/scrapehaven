@@ -255,7 +255,7 @@ const puppeteer = require('puppeteer');
     for (let pageNum = 1; pageNum <= pages; pageNum++) { 
         // For each image
         // (numOfImages/pages) * pageNum
-        for (let imageNum = 1; imageNum < 65; imageNum++) {
+        for (let imageNum = 1; imageNum < 25; imageNum++) {
             const pageTarget = page.target(); //save this to know that this was the opener
             await page.click(`#thumbs > section:nth-child(${pageNum}) > ul > li:nth-child(${imageNum}) > figure > a.preview`);
             const newTarget = await browser.waitForTarget(target => target.opener() === pageTarget); //check that you opened this page, rather than just checking the url
